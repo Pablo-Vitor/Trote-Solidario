@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="../js/ex.js"></script>
     <title>Exercicios</title>
   </head>
 
@@ -150,27 +149,11 @@
     <section class="home-section">
       <div class="home-content">
         <i class='bx bx-menu' ></i>
-        <span class="text">Drop Down SideBar</span>
       </div>
+      <h1>assss</h1>
     </section>
 
-    <script>
-      let arrow = document.querySelectorAll(".arrow");
-      for (var i = 0; i < arrow.length; i++) {
-        arrow[i].addEventListener("click", (e)=>{
-          let arrowParent = e.target.parentElement.parentElement;
-          arrowParent.classList.toggle("showMenu");
-        });
-      }
-      
-      let sidebar = document.querySelector(".sidebar");
-      let sidebarBtn = document.querySelector(".bx-menu");
-      sidebarBtn.addEventListener("click", ()=>{
-        sidebar.classList.toggle("close");
-      });
-      console.log(sidebarBtn);
-
-    </script>
+    <script src="../js/ex.js"></script>
 
   </body>
 
