@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="../js/ex.js"></script>
+    <title>Trote Solidario</title>
+  </head>
+
+  <body>
+
+    <div class="sidebar ">
+
+      <div class="logo-details">
+        <i class='bx bxs-cheese bx-tada' style='color:#695cfe'  ></i>
+        <span class="logo_name">Trote Solidário</span>
+      </div>
+
+      <ul class="nav-links">
+
+        <li>
+          <a href="introducao.html">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="link_name">Introdução</span>
+          </a>
+        </li>
+
+        <li>
+          <div class="icon-link">
+            <a href="objetivo.html">
+              <i class='bx bx-collection'></i>
+              <span class="link_name">Objetivo</span>
+            </a>
+          </div>
+        </li>
+
+        <li>
+            <div class="icon-link">
+              <a href="Etapa1.html">
+                <i class='bx bx-history' ></i>
+                <span class="link_name">1ª Etapa</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow'></i> 
+            </div>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#"></a>Equipes</li>
+            <li><a class="link_name" href="#"></a>Alimentos </li>
+            <li><a class="link_name" href="#"></a>Adicionais</li>
+            <li><a class="link_name" href="#">Doação </a></li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="icon-link">
+              <a href="Etapa2.html">
+                <i class='bx bx-compass' ></i>
+                <span class="link_name">2ª Etapa</span>
+              </a>
+                <i class='bx bxs-chevron-down arrow'></i>
+          </div>
+              <ul class="sub-menu blank">
+                <li><a class="link_name" href="#"></a></li>
+                <li><a class="link_name" href="#"></a>13</li>
+                <li><a class="link_name" href="#"></a>Equipes</li>
+              </ul>
+           
+        </li>
+
+        <li>
+          <div class="icon-link">
+            <a href="metas.html">
+              <i class='bx bx-plug' ></i>
+              <span class="link_name"><Main>Metas</Main></span>
+            </a>
+            <i class='bx bxs-chevron-down arrow'></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#">Plug</a></li>
+            <li><a href="#">Mascote Da Equipe</a></li>
+            <li><a href="#">Quiz</a></li>
+            <li><a href="#">Pontuação Extra</a></li>
+          </ul>
+        </li>
+
+        
+        <li>
+          <a href="observacoesf.html">
+            <i class='bx bx-line-chart'></i>
+            <span class="link_name">Observações Finais</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Chart</a></li>
+          </ul>
+        </li>
+
+        <
+
+        
+
+      
+
+        <li>
+          <div class="profile-details">
+            <div class="profile-content">
+              <img src="../img/mugen2.png" alt="Profile">
+            </div>
+            <div class="name-job">
+              <div class="profile_name">Mugen</div>
+              <div class="job">Server</div>
+            </div>
+            <i class='bx bx-log-out'></i>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <section class="home-section">
+      <div class="home-content">
+        <i class='bx bx-menu' ></i>
+        <span class="text">Trote Solidario - Eng.Soft</span>
+      </div>
+      
+      </div>
+    </section>
+
+    <script>
+      let arrow = document.querySelectorAll(".arrow");
+      for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e)=>{
+          let arrowParent = e.target.parentElement.parentElement;
+          arrowParent.classList.toggle("showMenu");
+        });
+      }
+      
+      let sidebar = document.querySelector(".sidebar");
+      let sidebarBtn = document.querySelector(".bx-menu");
+      sidebarBtn.addEventListener("click", ()=>{
+        sidebar.classList.toggle("close");
+      });
+      console.log(sidebarBtn);
+
+    </script>
+
+  </body>
+
+</html>
