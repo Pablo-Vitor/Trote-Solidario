@@ -14,6 +14,7 @@
   left: 0;
   height: 100%;
   width: 260px;
+  padding: 10px 9px 10px 14px;
   background: #11101d;
   z-index: 100;
   transition: all 0.5s ease;
@@ -28,6 +29,16 @@
   width: 100%;
   display: flex;
   align-items: center;
+}
+
+.sidebar .logo-details img {
+  font-size: 30px;
+  color: #fff;
+  height: 50px;
+  min-width: 78px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
 }
 
 .sidebar .logo-details i{
