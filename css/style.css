@@ -1,6 +1,31 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+:root {
+  --body-color: #e4e9f7;
+  --sidebar-color: #fff;
+  --primary-color: #695cfe;
+  --primary-color-light: #f6f5ff;
+  --toggle-color: #ddd;
+  --text-color: #707070;
+  --c1: #133FBA;
+  --c2: #FA8700;
+  --c3: #1273B9;
+
+  /*dark*/
+  --body-color: #18191a;
+  --sidebar-color: #242526;
+  --primary-color: #3a3b3c;
+  --primary-color-light: #3a3b3c;
+  --toggle-color: #fff;
+  --text-color: #ccc;
+
+  --tran-02: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
+}
+
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -14,7 +39,7 @@
   left: 0;
   height: 100%;
   width: 260px;
-  background: #11101d;
+  background: var(--c3);
   z-index: 100;
   transition: all 0.5s ease;
   display: flex;
@@ -48,7 +73,7 @@
 
 .sidebar .logo-details .logo_name{
   font-size: 22px;
-  color: #fff;
+  color: var(--c2);
   font-weight: 600;
   transition: 0.3s ease;
   transition-delay: 0.1s;
@@ -81,7 +106,7 @@
 }
 
 .sidebar .nav-links li:hover{
-  background: #1d1b31;
+  background: var(--c3);
 }
 
 .sidebar .nav-links li .icon-link{
@@ -133,7 +158,7 @@
 .sidebar .nav-links li .sub-menu{
   padding: 6px 6px 14px 80px;
   margin-top: -10px;
-  background: #1d1b31;
+  background: var(--c3);
   display: none;
 }
 
@@ -207,8 +232,7 @@
   width: 260px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background: #1d1b31;
+  background: var(--c3);
   padding: 6px 0;
   transition: all 0.5s ease;
 }
@@ -232,7 +256,7 @@
   object-fit: cover;
   border-radius: 16px;
   margin: 0 14px 0 12px;
-  background: #1d1b31;
+  background: var(--c3);
   transition: all 0.5s ease;
 }
 
@@ -248,7 +272,6 @@
   white-space: nowrap;
 }
 
-.sidebar.close .profile-details i,
 .sidebar.close .profile-details .profile_name,
 .sidebar.close .profile-details .job{
   display: none;
