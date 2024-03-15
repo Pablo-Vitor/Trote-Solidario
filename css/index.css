@@ -20,9 +20,16 @@
 }
 
 .home-section .test {
-  background: red;
   position: relative;
   max-width: 900px;
   justify-content: center;
-  margin: 0 auto;
+  margin: 10px auto;
+}
+
+.home-section .test .text {
+
+}
+
+.home-section .test .text h1 {
+  text-align: center;
 }
