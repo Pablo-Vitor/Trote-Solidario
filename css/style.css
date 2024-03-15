@@ -72,10 +72,6 @@
   overflow: auto;
 }
 
-.sidebar .nav-links{
-  overflow: visible;
-}
-
 .sidebar .nav-links::-webkit-scrollbar{
   display: none;
 }
