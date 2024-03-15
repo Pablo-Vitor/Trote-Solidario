@@ -20,6 +20,12 @@
 }
 
 .home-section .test {
+  margin-top: 50px;
   display: flex;
+  justify-content: center;
+  left: 50px;
+  right: 50px;
   background: red;
+  min-width: 100px;
+  width: 100px;
 }
