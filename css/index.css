@@ -20,9 +20,9 @@
 }
 
 .home-section .test {
+  background: red;
   position: relative;
+  max-width: 900px;
   justify-content: center;
   margin: 0 auto;
-  height: 90vh;
-  box-sizing: none;
 }
