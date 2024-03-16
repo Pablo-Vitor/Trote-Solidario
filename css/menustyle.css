@@ -33,7 +33,7 @@
 }
 
 .sidebar.close{
-  width: 78px;
+  width: 88px;
 }
 
 .sidebar .logo-details{
@@ -107,7 +107,7 @@
 
 .sidebar .nav-links li i{
   height: 50px;
-  min-width: 78px;
+  min-width: 88px;
   text-align: center;
   line-height: 50px;
   color: #fff;
@@ -228,7 +228,7 @@
 }
 
 .sidebar.close .profile-details{
-  width: 78px;
+  width: 88px;
 }
 
 .sidebar .profile-details .profile-content{
@@ -278,8 +278,8 @@
 }
 
 .sidebar.close ~ .home-section{
-  left: 78px;
-  width: calc(100% - 78px);
+  left: 88px;
+  width: calc(100% - 88px);
 }
 
 .home-section .home-content{
