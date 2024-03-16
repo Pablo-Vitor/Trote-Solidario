@@ -60,5 +60,10 @@ margin: 0 auto;
   padding: 60px 0 0 88px;
 }
 .conteudo .dimencao{
+  max-width: 1000px;
   margin: 40px
+}
+
+p{
+  font-size: 12px;
 }
