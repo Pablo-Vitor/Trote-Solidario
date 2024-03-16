@@ -33,6 +33,7 @@ footer{
   height: 40px;
   align-items: center;
   align-content: center;
+  transition: var(--tran-05);
   animation-duration: all 0.8s ease;
 }
 
@@ -50,12 +51,14 @@ margin: 0 auto;
   padding: 60px 0 0 260px;
   background: var(--c4);
   transition: var(--tran-05);
+  min-height: 100vh;
+  
+
 }
 
 .sidebar.close ~ .conteudo {
   padding: 60px 0 0 88px;
 }
 .conteudo .dimencao{
-  max-width: 1000px;
-  margin: 40px  40px;
+  margin: 40px
 }
