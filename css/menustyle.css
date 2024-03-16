@@ -5,6 +5,7 @@
   --c1: #133FBA;
   --c2: #FA8700;
   --c3: #1273B9;
+  --c4: #e4e9f7;
 
   --tran-02: all 0.2s ease;
   --tran-03: all 0.3s ease;
@@ -269,11 +270,9 @@
 }
 
 .home-section{
-  position: relative;
-  background: #e4e9f7;
+  position: fixed;
+  background: var(--c4);
   left: 260px;
-  height: 200vh;
-  width: calc(100% - 260px);
   transition: var(--tran-05);
 }
 
