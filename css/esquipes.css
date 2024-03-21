@@ -1,0 +1,16 @@
+@charset "UTF-8";
+table{
+    border: 1px solid black;
+}
+table > thead{
+    border: 2px solid red;
+    background-color: rgb(21, 21, 119);
+    color: white;
+}
+table th{
+    border: 1px solid black;
+}
+table td{
+    padding: 20px;
+    border: 1px solid black;
+}
