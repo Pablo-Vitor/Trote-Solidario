@@ -1,0 +1,11 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+}
+p{
+    text-indent: 3em;
+    margin: 10px 0;
+}
+.inf{
+    border: 1px solid black;
+}
