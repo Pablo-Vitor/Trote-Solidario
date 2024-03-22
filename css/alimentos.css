@@ -21,8 +21,13 @@ p{
     font-size: 1.7em;
 }
 .recado{
-    font-size: 13px;
+    font-size: 12px;
     text-indent: 0;
+}
+.tabela3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -20px;
 }
 table{
     border: 2px solid black;
@@ -64,4 +69,42 @@ td#verde{
 td#vermelho{
     background-color: rgb(212, 74, 74);
     text-align: center;
+}
+.recado2{
+    text-indent: 0;
+    font-size: 12px;
+    max-width: 700px;
+    margin: -20px auto 20px auto;
+    
+}
+table#tabela2{
+    border: 2px solid rgb(196, 196, 196);
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+table#tabela2 th{
+    border: 2px solid rgb(196, 196, 196);
+    background-color: rgb(212, 222, 255);
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+    width: 710px;
+
+}
+table#tabela2 td{
+    border: 2px solid rgb(196, 196, 196);
+    background-color: rgb(212, 222, 255);
+
+
+}
+table#tabela2 ul{
+    list-style: circle;
+    padding-left: 40px;
+}
+
+table#tl3os{
+    text-align: center;
+}
+table#tl3os th{
+    padding: 5px;
 }
