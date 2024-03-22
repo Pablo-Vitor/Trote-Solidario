@@ -15,7 +15,6 @@ table ul{
     padding: 0;
 }
 table > thead{
-    border: 2px solid red;
     background-color: rgb(21, 21, 119);
     color: white;
 }

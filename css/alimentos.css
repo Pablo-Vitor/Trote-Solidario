@@ -8,4 +8,60 @@ p{
 }
 .inf{
     border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(185, 205, 235);
+}
+.inf p{
+    text-indent: 0;
+}
+.inf ul{
+    padding-left: 40px;
+}
+.inf span{
+    font-size: 1.7em;
+}
+.recado{
+    font-size: 13px;
+    text-indent: 0;
+}
+table{
+    border: 2px solid black;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table ul{
+    list-style: none;
+    padding: 0;
+}
+table > thead{
+    background-color: rgb(21, 21, 119);
+    color: white;
+}
+table th{
+    border: 2px solid black;
+}
+table td{
+    padding: 7px;
+    border: 2px solid black;
+}
+td#amarela{
+    background-color: rgb(240, 240, 53);
+    width: 200px;
+    text-align: center;
+}
+td#laranja{
+    background-color: rgb(243, 186, 80);
+    text-align: center;
+}
+td#roxa{
+    background-color: rgb(153, 43, 153);
+    text-align: center;
+}
+td#verde{
+    background-color: rgb(65, 155, 65);
+    text-align: center;
+}
+td#vermelho{
+    background-color: rgb(212, 74, 74);
+    text-align: center;
 }
