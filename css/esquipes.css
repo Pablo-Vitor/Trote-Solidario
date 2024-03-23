@@ -1,8 +1,11 @@
 @charset "UTF-8";
+h1 {
+    margin-bottom: 26px;
+}
 p{
     text-align: justify;
     text-indent: 3em;
-    margin: 10px 0;
+    margin: 16px 0;
     
 }
 table{

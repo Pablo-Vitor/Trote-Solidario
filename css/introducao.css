@@ -2,9 +2,12 @@
 *{
     margin: 0;
 }
+h1 {
+    margin-bottom: 26px;
+}
 p{
     text-indent: 3em;
-    margin: 10px 0;
+    margin: 16px 0;
 }
 ol{
     box-sizing: border-box;
