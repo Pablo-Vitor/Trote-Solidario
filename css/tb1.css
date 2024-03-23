@@ -1,28 +1,18 @@
 @charset "UTF-8";
-h1 {
-    margin-bottom: 26px;
-}
-p{
-    text-align: justify;
-    text-indent: 3em;
-    margin: 16px 0;
-    
-}
-.tb1 {
-    display: flex;
-    justify-content: center;
-    height: 500.6px;
-    width: 673.725px;
-    margin: 20px auto;
+* {
+    margin: 0;
+    padding: 0;
 }
 table{
     border: 2px solid black;
-    margin: 20px auto;
     border-collapse: collapse;
 }
 table ul{
     list-style: none;
     padding: 0;
+}
+table ul li {
+    margin-top: 10px;
 }
 table > thead{
     background-color: rgb(21, 21, 119);
@@ -75,7 +65,7 @@ td#vermelho{
     margin-bottom: -20px;
 }
 .curso{
-    padding-right: 70px;
+    text-align: center;
     max-width: 1200px;
 }
 .recado2{
@@ -83,30 +73,4 @@ td#vermelho{
     font-size: 12px;
     max-width: 500px;
     margin: -20px auto 20px auto;
-}
-
-@media (max-width: 800px) {
-    .tb1 {
-        height: 700.6px;
-        width: 590.725px;
-    }
-}
-
-@media (max-width: 700px) {
-    .tb1 {
-        height: 940.6px;
-        width: 500.725px;
-    }
-}
-
-@media (max-width: 600px) {
-    .tb1 {
-        width: 400px;
-    }
-}
-
-@media (max-width: 480px) {
-    .tb1 {
-        width: 340px;
-    }
 }
