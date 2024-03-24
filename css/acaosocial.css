@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+:root {
+  --c1: #133FBA;
+  --c2: #FA8700;
+  --c3: #1274ba;
+  --c4: #e4e9f7;
+
+  --tran-02: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
+}
+
+*{
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 26px;
+}
+
+
+
+p{
+    text-indent: 1em;
+    margin: 16px 0;
+}
+
+.acao{
+    box-sizing: border-box;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.acao li{
+    margin-top: 10px;
+}
+
+h2 {
+  color: var(--c1);
+  font-size: 20px;
+}
