@@ -20,7 +20,9 @@ h1 {
     margin-bottom: 26px;
 }
 
-
+h2 {
+    margin: 26px 0;
+}
 
 p{
     margin: 16px 0;

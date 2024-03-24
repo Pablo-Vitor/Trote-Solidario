@@ -33,6 +33,12 @@ p{
     margin-bottom: 20px;
 }
 
+.acao2 {
+    box-sizing: border-box;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
 .acao li{
     margin-top: 10px;
 }
