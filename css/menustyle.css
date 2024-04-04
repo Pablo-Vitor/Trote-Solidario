@@ -130,6 +130,12 @@
   transition: var(--tran-03);
 }
 
+.sidebar .nav-links li i img{
+  /* margin-top: 13px;*/
+  position: relative;
+  top: 6px;
+ }
+
 .sidebar .nav-links li.showMenu i.arrow{
   transform: rotate(-180deg);
 }
