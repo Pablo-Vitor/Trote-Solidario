@@ -1,0 +1,46 @@
+.pDoação{
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+.Divpdoacao{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 3px;
+}
+
+.p2Doacao{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 3px;  
+}
+
+.Divuldoacao{
+    background-color: hwb(210 51% 14%);
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 600px;
+    margin: 0 auto;
+    border: 3px dotted black;
+}
+
+.divimportul{
+    background-color: #4fa876;
+    padding-left: 30px;
+    width: 700px;
+    margin: 0 auto;
+    border: 3px dotted black;
+    
+}
+
+.divimportul h4{
+    padding-top: 20px;
+}
+
+.ulimport{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

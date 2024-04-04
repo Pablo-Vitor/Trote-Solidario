@@ -1,0 +1,23 @@
+.pAdicionais1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.p2Adicionais p{
+    padding-top: 30px;
+    word-spacing: 4px;
+}
+
+.divuladc{
+    background-color: hwb(210 51% 14%);
+    margin-left: 20px;
+    padding-left: 60px;
+    width: 600px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+
