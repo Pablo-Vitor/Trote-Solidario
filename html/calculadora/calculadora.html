@@ -118,32 +118,149 @@
 
     <main class="conteudo">
         <div class="dimencao">
-            <h1>Adicionais</h1>
-            <p> - ALIMENTOS E SUPLEMENTOS – ADICIONAIS</p>
-            <p class="pAdicionais1">
-                As doações que excederem a meta serão pontuadas da seguinte forma:
-                <div class="divuladc">
-                    <ul>
-                        <li>kit Alimentação.............................................................................................30 pontos</li>
-                        <li>Lata de suplemento conforme regulamento..................   15 pontos</li>
-                        <li>Pacote de Arroz 05 Kg............................................................................. 5 pontos</li>
-                        <li>Pacote de Arroz 01 Kg............................................................................... 1 ponto</li>
-                        <li>Pacote de Feijão 02 Kg........................................................................... 2 pontos</li>
-                        <li>Pacote de Feijão 01 Kg............................................................................. 1 ponto</li>
-                        <li>Pacote de Macarrão de 500 gramas....................................... ½ ponto</li>
-                        <li>Óleo 900 ml......................................................................................................... 1 ponto</li>
-                    </ul>
+            <h1>Calculadora</h1>
+            <form action="">
+
+                <div class="bloco1">
+                    <h2>Principais Informações</h2>
+
+                <div class="form-div">
+                    <label for="cor">Equipes:</label>
+                    <select name="" id="cor">
+                            <option value="Amarela">Amarela</option>
+                            <option value="Laranja">Laranja</option>
+                            <option value="Roxa">Roxa</option>
+                            <option value="Verde">Verde</option>
+                            <option value="Vermelho">Vermelho</option>
+                    </select>
+                    <button type="button" onclick="Equipes()"></button>
                 </div>
-            </p>
-            <div class="p2Adicionais">
-                <p>
-                    &emsp;&emsp;Também será estendida aos veteranos a emissão de certificado por doação.
-                    Para tanto, serão concedidas 20 horas atividade para cada kit de alimentos e 10 horas
-                    para cada Suplemento Alimentar doados, limitados a 60 horas no total. A listagem de
-                    controle das doações dos veteranos será disponibilizada pelo chefe do departamento
-                    ou padrinho da equipe à comissão.
-                </p>
-            </div>
+
+                <div class="form-div">
+                    <label for="cesta">Quantidade de cestas básicas entegues:</label>
+                    <input type="number" id="cesta">
+                </div>
+
+                <div class="form-div">
+                    <label for="suplemento">Quantidade de suplementos entregues:</label>
+                    <input type="number" id="suplemento">
+                </div>
+              
+                <div class="form-div-list">
+                    <p>Itens avulsos</p>
+                    <label for="arroz5">Pacotes de arroz 5kg:</label>
+                    <input type="number" id="arroz5">
+                    <br>
+                    <label for="arroz1">Pacotes de arroz 1kg:</label>
+                    <input type="number" id="arroz1">
+                    <br>
+                    <label for="feijao2">Pacotes de Feijão 2kg:</label>
+                    <input type="number" id="feijao2">
+                    <br>
+                    <label for="feijao1">Pacotes de Feijão 1kg:</label>
+                    <input type="number" id="feijao1">
+                    <br>
+                    <label for="macarrao">Pacotes de macarrão 500g:</label>
+                    <input type="number" id="macrrao">
+                    <br>
+                    <label for="oleo">Garrafa de óleo 900ml</label>
+                    <input type="number" id="ole">
+                </div>
+
+                <div class="ls">
+                    <p>Leite e Sangue</p>
+                    <div class="form-div">
+                        <label for="leite">Quantidade de litros de leite doados:</label>
+                        <input type="number" id="leite">
+                    </div>
+
+                    <div class="form-div">
+                        <label for="sangue">Quantidade de pessoas que doaram sangue:</label>
+                        <input type="number" id="sangue">
+                    </div>
+                </div>
+
+                <div class="bloco2">
+                    <h2>Apresentação musical</h2>
+                    <div class="form-div">
+                        <label for="criatividade">Pontos de criatividade:</label>
+                        <input type="number" id="criatividade">
+                        <br>
+                        <label for="performace">Pontos de performace:</label>
+                        <input type="number" id="performace">
+                        <br>
+                        <label for="contextualização">Pontos da contextualização:</label>
+                        <input type="number" id="contextualização"
+                        <br>>
+                        <label for="penalidade">A sua equipe sofreu penalidade?:</label>
+                        <select id="penalidade">
+                            <option value="0">Não</option>
+                            <option value="1">Sim</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="bloco3">
+                    <h2>Mascote</h2>
+                    <div class="form-div">
+                        <label for="originalidade">Pontos da originalidade: </label>
+                        <input type="number" id="originalidade">
+                        <label for="caracterizacao">Pontos da caracterizacao: </label>
+                        <input type="number" id="caracterizacao">
+                        <label for="atuacao">Pontos de Atuação: </label>
+                        <input type="number" id="atuacao">
+                    </div>
+
+                </div>
+
+                <div class="bloco4">
+                    <h2>Informações finais</h2>
+                    <div class="form-div">
+                        <label for="equipe">A sua equipe teve membros caracterizados?</label>
+                        <select id="equipe">
+                            <option value="0">Não</option>
+                            <option value="1">Sim</option>
+                        </select>
+                    </div>
+
+                    <div class="form-div">
+                        <label for="social">A sua equipe participou da ação social?</label>
+                        <select id="social">
+                            <option value="0">Não</option>
+                            <option value="1">Sim</option>
+                        </select>
+                    </div>
+
+
+                </div>
+
+                <div class="form-div">
+                    <label for="quiz"> Qual o total de acertos no quiz?</label>
+                    <select id="quiz">
+                        <option value="0">Nenhum</option>
+                        <option value="1">Um</option>
+                        <option value="2">Dois</option>
+                        <option value="3">Três</option>
+                        <option value="4">Quatro</option>
+                        <option value="5">Cinco</option>
+                    </select>
+                </div>
+
+                <div class="form-div">
+                    <label for="extra">Digite a pontuação extra</label>
+                    <input type="number"  id="extra">
+                </div>
+                </div>
+
+
+                <div class="button">
+                    <button type="button" onclick="calculadora()">Calcular</button>
+                </div>
+
+
+
+            </form>
+    
            
         </div>
     </main>
