@@ -8,7 +8,49 @@
     margin-top: 30px;
 }
 
+
 .pdiv2{
     padding-top: 20px;
     font-size: 20px;
 }
+
+.ptrote{
+    margin-top: 20px;
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+.txtrote{
+    word-spacing: 3px;
+    line-height: 30px;
+}
+
+.divarrecadacao{
+    float: center;
+    margin-top: 60px;
+}
+
+.parrecadacao{
+    margin-top: 20px;
+    font-size: 40px;
+    padding-left: 300px;
+}
+
+.parrecadao2{
+    padding-top: 30px;
+    word-spacing: 5px;
+}
+
+.divcalculadora{
+    margin-top: 60px;
+    padding-left: 40px;
+}
+
+.pcalculadora{
+    font-size: 40px;
+}
+
+.pcalculadora2{
+    word-spacing: 4px;
+}
+
