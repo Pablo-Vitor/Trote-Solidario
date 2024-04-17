@@ -20,6 +20,7 @@ function calculadora(){
   var social = Number(document.getElementById("social").value) ;
   var quiz = Number(document.getElementById("quiz").value) ;
   var extra = Number(document.getElementById("extra").value) ;
+  var equipe = Number(document.getElementById("equipe").value) ;
 
   var cor = document.getElementById("cor").value;
 
@@ -51,7 +52,7 @@ function calculadora(){
 
   var pontos_leite = leite * 2;
   var pontos_sangue = sangue * 20;
-  var pontos_acao_social = social * 2000;
+  var pontos_acao_social = social * 1000;
   var pontos_apresentacao_musical = criatividade + performace + contextualizacao ;
   var pontos_mascote = originalidade + caracterizacao + atuacao;
   var pontos_quiz = quiz * 1000;
@@ -59,12 +60,13 @@ function calculadora(){
   var suplemento = suplemento * 15
   var arroz5 = arroz5 * 5
   var feijao2 = feijao2 * 2
+  var equipe_pont = equipe * 1000   
 
 
 
 
   // Somando os pontos totais
-  var pontos_totais = cestas + suplemento + (arroz5 * 5) + (arroz1 * 1) + (feijao2 * 2) + (feijao1 * 1) + (macarrao * 0.5) + (oleo * 0.9) + pontos_leite + pontos_sangue + pontos_acao_social + pontos_apresentacao_musical + pontos_mascote + pontos_quiz + extra;
+  var pontos_totais = cestas + suplemento + (arroz5 * 5) + (arroz1 * 1) + (feijao2 * 2) + (feijao1 * 1) + (macarrao * 0.5) + (oleo * 0.9) + pontos_leite + pontos_sangue + pontos_acao_social + pontos_apresentacao_musical + pontos_mascote + pontos_quiz + extra + equipe_pont;
 
   // Exibindo o resultado
   alert("Pontuação Total: "+ pontos_totais);
