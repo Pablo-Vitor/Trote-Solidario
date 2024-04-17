@@ -78,7 +78,20 @@
   overflow: auto;
 }
 
+.sidebar .nav-links.close{
+  display: none;
+  height: 100%;
+  padding: 30px 0 150px 0;
+  overflow: auto;
+}
+
 .sidebar.close .nav-links{
+  display: none;
+  overflow: visible;
+}
+
+.sidebar.close .nav-links.close{
+  display: block;
   overflow: visible;
 }
 
