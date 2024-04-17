@@ -4,7 +4,7 @@
 :root {
   --c1: #133FBA;
   --c2: #FA8700;
-  --c3: #1274ba;
+  --c3: #0d0435;
   --c4: #e4e9f7;
 
   --tran-02: all 0.2s ease;
@@ -26,7 +26,7 @@
   left: 0;
   height: 100%;
   width: 260px;
-  background: var(--c3);
+  background: #0d0435;
   z-index: 100;
   transition: var(--tran-05);
   display: flex;
@@ -164,7 +164,7 @@
 .sidebar .nav-links li .sub-menu{
   padding: 6px 6px 14px 80px;
   margin-top: -10px;
-  background: var(--c3);
+  background: #0d0435;
   display: none;
 }
 
@@ -238,7 +238,7 @@
   width: 260px;
   display: flex;
   align-items: center;
-  background: var(--c3);
+  background: #0d0435;
   padding: 10px;
   transition: var(--tran-05);
 }
@@ -287,7 +287,7 @@
 
 .home-section{
   position: fixed;
-  background: var(--c4);
+  background: #f4f4f4;
   left: 260px;
   width: calc(100% - 260px);
   transition: var(--tran-05);

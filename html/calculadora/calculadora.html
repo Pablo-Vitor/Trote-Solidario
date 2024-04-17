@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="stylesheet" href="../../css/menustyle.css">
-    <link rel="stylesheet" href="../../css/adicionais.css">
+    <link rel="stylesheet" href="/css/calculadora.css">
+    <script src="/js/calculadora.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Exercicios</title>
   </head>
@@ -24,12 +25,22 @@
         <ul class="nav-links">
 
             <li>
-                <a href="../index.html">
+                <a href="../etapa2/principal.html">
                     <i class='bx bx-home-alt-2'></i>
+                    <span class="link_name">Principal</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="../etapa2/principal.html">Principal</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="../index.html">
+                    <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAM9JREFUSEvtlkEOAUEQRd8/hQURbLiAjUS4gfO4AReyFdZWdiKRkdg4RcnISITuKTNjdtPbqv6v66e6ukXNSzXr8wUwswWwAkY58BMwk3T3DhgC3IC2txE4A1MPEgJYKi4paJ+ZPePZugCTPEgVQAL0vEqqADrAHhgA0UpKA1ILzawF7IBhDFIaEGmCg6Txe6wMYAvMY1322RyFATHhV3c1gOgFbyxyZ19j0V8tugJdVzGckEjqe7MofTLX2YQswjkCS0mbXEARxV9ya/9VPAC/gKYZaegPnQAAAABJRU5ErkJggg=="/></i>
                     <span class="link_name">Introdução</span>
                 </a>
                 <ul class="sub-menu blank">
-                    <li><a class="link_name" href="../index.html">Introdução</a></li>
+                    <li><a class="link_name" href="/html/index.html">Introdução</a></li>
                 </ul>
             </li>
             
@@ -74,7 +85,7 @@
                     <li><a href="../etapa2/noite.html">Noite do Encerramento</a></li>
                 </ul>
             </li>
-
+            
             <li>
                 <a href="../obsfinais.html">
                     <i class='bx bx-message-square-add'></i>
@@ -94,18 +105,28 @@
                     <li><a class="link_name" href="calculadora.html">Calculadora</a></li>
                 </ul>
             </li>
-        
+            
         </ul>
-
+        
         <ul class="nav-links close">
 
             <li>
                 <a href="#">
                     <i class='bx bx-home-alt-2'></i>
+                    <span class="link_name">Principal</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="../etapa2/principal.html">Principal</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAM9JREFUSEvtlkEOAUEQRd8/hQURbLiAjUS4gfO4AReyFdZWdiKRkdg4RcnISITuKTNjdtPbqv6v66e6ukXNSzXr8wUwswWwAkY58BMwk3T3DhgC3IC2txE4A1MPEgJYKi4paJ+ZPePZugCTPEgVQAL0vEqqADrAHhgA0UpKA1ILzawF7IBhDFIaEGmCg6Txe6wMYAvMY1322RyFATHhV3c1gOgFbyxyZ19j0V8tugJdVzGckEjqe7MofTLX2YQswjkCS0mbXEARxV9ya/9VPAC/gKYZaegPnQAAAABJRU5ErkJggg=="/></i>
                     <span class="link_name">Introdução</span>
                 </a>
                 <ul class="sub-menu blank">
-                    <li><a class="link_name" href="../index.html">Introdução</a></li>
+                    <li><a class="link_name" href="/html/index.html">Introdução</a></li>
                 </ul>
             </li>
             
@@ -194,32 +215,144 @@
 
     <main class="conteudo">
         <div class="dimencao">
-            <h1>Adicionais</h1>
-            <p> - ALIMENTOS E SUPLEMENTOS – ADICIONAIS</p>
-            <p class="pAdicionais1">
-                As doações que excederem a meta serão pontuadas da seguinte forma:
-                <div class="divuladc">
-                    <ul>
-                        <li>kit Alimentação.............................................................................................30 pontos</li>
-                        <li>Lata de suplemento conforme regulamento..................   15 pontos</li>
-                        <li>Pacote de Arroz 05 Kg............................................................................. 5 pontos</li>
-                        <li>Pacote de Arroz 01 Kg............................................................................... 1 ponto</li>
-                        <li>Pacote de Feijão 02 Kg........................................................................... 2 pontos</li>
-                        <li>Pacote de Feijão 01 Kg............................................................................. 1 ponto</li>
-                        <li>Pacote de Macarrão de 500 gramas....................................... ½ ponto</li>
-                        <li>Óleo 900 ml......................................................................................................... 1 ponto</li>
-                    </ul>
+            <h1>Calculadora</h1>
+            <form action="">
+
+                <div class="bloco1">
+                    <h2>Principais Informaçõews</h2>
+
+                <div class="form-div">
+                    <label for="cor">Equipes:</label>
+                    <select name="" id="cor">
+                            <option value="0">Amarela</option>
+                            <option value="1">Laranja</option>
+                            <option value="2">Roxa</option>
+                            <option value="3">Verde</option>
+                            <option value="4">Vermelho</option>
+                    </select>
+                    
                 </div>
-            </p>
-            <div class="p2Adicionais">
-                <p>
-                    &emsp;&emsp;Também será estendida aos veteranos a emissão de certificado por doação.
-                    Para tanto, serão concedidas 20 horas atividade para cada kit de alimentos e 10 horas
-                    para cada Suplemento Alimentar doados, limitados a 60 horas no total. A listagem de
-                    controle das doações dos veteranos será disponibilizada pelo chefe do departamento
-                    ou padrinho da equipe à comissão.
-                </p>
-            </div>
+
+                <div class="form-div">
+                    <label for="cesta">Quantidade de cestas básicas entegues:</label>
+                    <input type="number" id="cesta">
+                </div>
+
+                <div class="form-div">
+                    <label for="suplemento">Quantidade de suplementos entregues:</label>
+                    <input type="number" id="suplemento">
+                </div>
+              
+                <div class="form-div-list">
+                    <p>Itens avulsos</p>
+                    <label for="arroz5">Pacotes de arroz 5kg:</label>
+                    <input type="number" id="arroz5">
+                    <br>
+                    <label for="arroz1">Pacotes de arroz 1kg:</label>
+                    <input type="number" id="arroz1">
+                    <br>
+                    <label for="feijao2">Pacotes de Feijão 2kg:</label>
+                    <input type="number" id="feijao2">
+                    <br>
+                    <label for="feijao1">Pacotes de Feijão 1kg:</label>
+                    <input type="number" id="feijao1">
+                    <br>
+                    <label for="macarrao">Pacotes de macarrão 500g:</label>
+                    <input type="number" id="macarrao">
+                    <br>
+                    <label for="oleo">Garrafa de óleo 900ml</label>
+                    <input type="number" id="oleo">
+                </div>
+
+                <div class="ls">
+                    <p>Leite e Sangue</p>
+                    <div class="form-div">
+                        <label for="leite">Quantidade de litros de leite doados:</label>
+                        <input type="number" id="leite">
+                    </div>
+
+                    <div class="form-div">
+                        <label for="sangue">Quantidade de pessoas que doaram sangue:</label>
+                        <input type="number" id="sangue">
+                    </div>
+                </div>
+
+                <div class="bloco2">
+                    <h2>Apresentação musical</h2>
+                    <div class="form-div">
+                        <label for="criatividade">Pontos de criatividade:</label>
+                        <input type="number" id="criatividade">
+                        <br>
+                        <label for="performace">Pontos de performace:</label>
+                        <input type="number" id="performace">
+                        <br>
+                        <label for="contextualização">Pontos da contextualização:</label>
+                        <input type="number" id="contextualização">
+                    </div>
+                </div>
+
+                <div class="bloco3">
+                    <h2>Mascote</h2>
+                    <div class="form-div">
+                        <label for="originalidade">Pontos da originalidade: </label>
+                        <input type="number" id="originalidade">
+                        <label for="caracterizacao">Pontos da caracterizacao: </label>
+                        <input type="number" id="caracterizacao">
+                        <label for="atuacao">Pontos de Atuação: </label>
+                        <input type="number" id="atuacao">
+                    </div>
+
+                </div>
+
+                <div class="bloco4">
+                    <h2>Informações finais</h2>
+                    <div class="form-div">
+                        <label for="equipe">A sua equipe teve membros caracterizados?</label>
+                        <select id="equipe">
+                            <option value="0">Não</option>
+                            <option value="1">Sim</option>
+                        </select>
+                    </div>
+
+                    <div class="form-div">
+                        <label for="social">A sua equipe participou da ação social?</label>
+                        <select id="social">
+                            <option value="0">Não</option>
+                            <option value="1">Sim</option>
+                        </select>
+                    </div>
+
+
+                </div>
+
+                <div class="form-div">
+                    <label for="quiz"> Qual o total de acertos no quiz?</label>
+                    <select id="quiz">
+                        <option value="0">Nenhum</option>
+                        <option value="1">Um</option>
+                        <option value="2">Dois</option>
+                        <option value="3">Três</option>
+                        <option value="4">Quatro</option>
+                        <option value="5">Cinco</option>
+                    </select>
+                </div>
+
+                <div class="form-div">
+                    <label for="extra">Digite a pontuação extra</label>
+                    <select id="extra">
+                        <option value="0">Não</option>
+                        <option value="1">Sim</option>
+                    </select>
+                </div>
+
+                <div class="button">
+                    <button type="button" onclick="calculadora()">Calcular</button>
+                </div>
+
+
+
+            </form>
+    
            
         </div>
     </main>
