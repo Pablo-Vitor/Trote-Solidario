@@ -141,7 +141,7 @@ function calculadora(){
 
 
   // Somando os pontos totais
-  var pontos_totais = pontos_equipe + (arroz5 * 5) + (arroz1 * 1) + (feijao2 * 2) + (feijao1 * 1) + (macarrao * 0.5) + (oleo * 0.9) + pontos_leite + pontos_sangue + pontos_acao_social + pontos_apresentacao_musical + pontos_mascote + pontos_quiz + extra;
+  var pontos_totais = pontos_equipe + (arroz5 * 5) + (arroz1 * 1) + (feijao2 * 2) + (feijao1 * 1) + (macarrao * 0.5) + (oleo * 0.9) + pontos_leite + pontos_sangue + pontos_acao_social + pontos_apresentacao_musical + pontos_mascote + pontos_quiz + extra + equipe_pont;
 
   // Exibindo o resultado
   alert("Pontuação Total: "+ pontos_totais);
