@@ -29,19 +29,94 @@ function calculadora(){
   // Utilizando switch para determinar a pontuação com base na equipe selecionada
   switch (cor) {
       case '0':
-          pontos_equipe = 0; // Pontuação para a equipe Amarela
+          //pontos_equipe = 0; // Pontuação para a equipe Amarela
+          if (cestas >= 91 && suplemento >= 46) {
+            pontos_equipe = 5000
+          }
+          else if (cestas >= 73 && suplemento >= 37) {
+            pontos_equipe = 4000
+          }
+          else if (cestas >= 46 && suplemento >= 23) {
+            pontos_equipe = 2500
+          }
+          else if (cestas >= 18 && suplemento >= 9) {
+            pontos_equipe = 1000
+          }
+          else {
+            pontos_equipe = 0
+          }
           break;
       case '1':
-          pontos_equipe = 500; // Pontuação para a equipe Laranja
+          //pontos_equipe = 500; // Pontuação para a equipe Laranja
+          if (cestas >= 84 && suplemento >= 42) {
+            pontos_equipe = 5000
+          }
+          else if (cestas >= 67 && suplemento >= 34) {
+            pontos_equipe = 4000
+          }
+          else if (cestas >= 42 && suplemento >= 21) {
+            pontos_equipe = 2500
+          }
+          else if (cestas >= 17 && suplemento >= 8) {
+            pontos_equipe = 1000
+          }
+          else {
+            pontos_equipe = 0
+          }
           break;
       case '2':
-          pontos_equipe = 1000; // Pontuação para a equipe Roxa
+          //pontos_equipe = 1000; // Pontuação para a equipe Roxa
+          if (cestas >= 84 && suplemento >= 42) {
+            pontos_equipe = 5000
+          }
+          else if (cestas >= 68 && suplemento >= 34) {
+            pontos_equipe = 4000
+          }
+          else if (cestas >= 42 && suplemento >= 21) {
+            pontos_equipe = 2500
+          }
+          else if (cestas >= 17 && suplemento >= 9) {
+            pontos_equipe = 1000
+          }
+          else {
+            pontos_equipe = 0
+          }
           break;
       case '3':
-          pontos_equipe = 1500; // Pontuação para a equipe Verde
+          //pontos_equipe = 1500; // Pontuação para a equipe Verde
+          if (cestas >= 81 && suplemento >= 41) {
+            pontos_equipe = 5000
+          }
+          else if (cestas >= 65 && suplemento >= 33) {
+            pontos_equipe = 4000
+          }
+          else if (cestas >= 41 && suplemento >= 21) {
+            pontos_equipe = 2500
+          }
+          else if (cestas >= 16 && suplemento >= 8) {
+            pontos_equipe = 1000
+          }
+          else {
+            pontos_equipe = 0
+          }
           break;
       case '4':
-          pontos_equipe = 2000; // Pontuação para a equipe Vermelha
+          //pontos_equipe = 2000; // Pontuação para a equipe Vermelha
+          if (cestas >= 104 && suplemento >= 52) {
+            pontos_equipe = 5000
+          }
+          else if (cestas >= 83 && suplemento >= 42) {
+            pontos_equipe = 4000
+          }
+          else if (cestas >= 52 && suplemento >= 26) {
+            pontos_equipe = 2500
+          }
+          else if (cestas >= 21 && suplemento >= 10) {
+            pontos_equipe = 1000
+          }
+          else {
+            pontos_equipe = 0
+          }
           break;
       default:
           pontos_equipe = 0; // Pontuação padrão (caso o valor não corresponda a nenhuma equipe)
@@ -54,9 +129,9 @@ function calculadora(){
   var pontos_acao_social = social * 2000;
   var pontos_apresentacao_musical = criatividade + performace + contextualizacao ;
   var pontos_mascote = originalidade + caracterizacao + atuacao;
-  var pontos_quiz = quiz * 1000;
-  var cestas = cestas * 30
-  var suplemento = suplemento * 15
+  var pontos_quiz = quiz * 200;
+  //var cestas = cestas * 30
+  //var suplemento = suplemento * 15
   var arroz5 = arroz5 * 5
   var feijao2 = feijao2 * 2
 
@@ -64,7 +139,7 @@ function calculadora(){
 
 
   // Somando os pontos totais
-  var pontos_totais = cestas + suplemento + (arroz5 * 5) + (arroz1 * 1) + (feijao2 * 2) + (feijao1 * 1) + (macarrao * 0.5) + (oleo * 0.9) + pontos_leite + pontos_sangue + pontos_acao_social + pontos_apresentacao_musical + pontos_mascote + pontos_quiz + extra;
+  var pontos_totais = pontos_equipe + (arroz5 * 5) + (arroz1 * 1) + (feijao2 * 2) + (feijao1 * 1) + (macarrao * 0.5) + (oleo * 0.9) + pontos_leite + pontos_sangue + pontos_acao_social + pontos_apresentacao_musical + pontos_mascote + pontos_quiz + extra;
 
   // Exibindo o resultado
   alert("Pontuação Total: "+ pontos_totais);
