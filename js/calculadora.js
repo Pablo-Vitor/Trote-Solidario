@@ -127,7 +127,7 @@ function calculadora(){
 
   var pontos_leite = leite * 2;
   var pontos_sangue = sangue * 20;
-  var pontos_acao_social = social * 1000;
+  var pontos_acao_social = social * 2000;
   var pontos_apresentacao_musical = criatividade + performace + contextualizacao ;
   var pontos_mascote = originalidade + caracterizacao + atuacao;
   var pontos_quiz = quiz * 200;
@@ -136,6 +136,7 @@ function calculadora(){
   var arroz5 = arroz5 * 5
   var feijao2 = feijao2 * 2
   var equipe_pont = equipe * 1000   
+  var extra = extra * 1000
 
 
 
